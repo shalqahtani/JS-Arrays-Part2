@@ -10,40 +10,39 @@
  */
 
 //Task 1
-let numbers = [1,2,3,4,5,6];
+let numbers = [1, 2, 3, 4, 5, 6];
 
-
-function isArrayLengthOdd(numbers) { 
-  if(numbers.length %2 ==0 ){
+function isArrayLengthOdd(numbers) {
+  if (numbers.length % 2 == 0) {
     return false;
   } else {
-    return true; 
+    return true;
   }
-} 
+}
 
 //Task 2
 console.log(isArrayLengthEven(numbers));
 
-function isArrayLengthEven(numbers) { 
-  if(numbers.length %2 ==0 ){
+function isArrayLengthEven(numbers) {
+  if (numbers.length % 2 == 0) {
     return true;
   } else {
-    return false; 
+    return false;
   }
-} 
+}
 
 console.log(isArrayLengthEven(numbers));
 
 //Task 3
 
- const instructors = ["Modi","Ayah","Anwar","Fahad","Salman","Mishari"];
+const instructors = ["Modi", "Ayah", "Anwar", "Fahad", "Salman", "Mishari"];
 function addLailaToArray(instructors) {
   console.log(instructors);
   instructors.push("Lila");
   console.log(instructors);
 }
-console.log(addLailaToArray(instructors));
-
+//console.log(addLailaToArray(instructors));
+addLailaToArray(instructors);
 //Task 4
 /**
  * eliminateTeam(teams):
@@ -54,10 +53,11 @@ console.log(addLailaToArray(instructors));
  * eliminateTeam(["Brazil", "Germany", "Italy"]) -> "Italy"
  */
 
-const teams=["Brazil", "Germany", "Italy"];
+const teams = ["Brazil", "Germany", "Italy"];
 function eliminateTeam(teams) {
   console.log(teams);
   teams.pop("Italy");
   console.log(teams);
 }
-console.log(eliminateTeam(teams));
+//console.log(eliminateTeam(teams));
+eliminateTeam(teams);
